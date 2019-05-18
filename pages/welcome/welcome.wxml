@@ -1,0 +1,11 @@
+<!-- wxml是用来编写页面骨架的文件 -->
+<!-- <div>  容器+分隔页面  类似<view>-->
+<view class="container">
+  <image class="user-avator"
+  src="/images/avatar/1.png"></image>
+  <text class="user-name">hi bigBoss</text>
+  <view class="moto-container" bind:tap="onTap">
+    <text class="moto" >开启小程序之旅</text>
+  </view>
+  <!-- img 默认值 width:300px height:225px -->
+</view>

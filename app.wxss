@@ -1,0 +1,5 @@
+/* 定义text组件里的字体 */
+text{
+  font-family: MicroSoft Yahei;
+  font-size:24rpx;
+}

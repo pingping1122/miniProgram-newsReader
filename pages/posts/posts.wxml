@@ -1,0 +1,24 @@
+
+<!-- <import src="post-item/post-item-template.wxml" /> -->
+<import src="/pages/posts/post-item/post-item-template.wxml" />
+<view>
+  <!-- javascript中非空字符串都是true，所以为显示bool  加上双括号 -->
+  <swiper indicator-dots="{{true}}" autoplay="true" interval="3000">
+    <swiper-item>
+      <image src="/images/huawei.jpg">
+      </image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/mayun.jpg">
+      </image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/bigBang.jpg">
+      </image>
+    </swiper-item>
+  </swiper>
+  <block wx:key="1" wx:for="{{post_key}}" wx:for-item="item" wx:for-index="idex">
+    <!-- template -->
+    <view catch:tap="onPostTap" data-postId="{{item.postId}}"> <template is="postItem"  data="{{item}}"  />  </view>
+  </block>
+</view>
