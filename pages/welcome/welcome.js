@@ -7,9 +7,14 @@ Page({
     //   url: '../posts/posts',
     // })
     // 跳转页面  ---无返回键
-    wx.redirectTo({
-      url: '../posts/posts',
-    })
+    // wx.redirectTo({
+    //   url: '../posts/posts',
+    // })
  // 冒泡和非冒泡  catch\bind
+
+   // 跳转到有tab的页面只能使用switchTap
+   wx.switchTab({
+     url: '../posts/posts',
+   })
   }
 })

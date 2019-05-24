@@ -75,7 +75,67 @@ var post_content = [{
       title: "女儿情-万晓利",
       coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000004Wv5BO30pPc0.jpg?max_age=2592000"
     }
-}]
+},
+  {
+    img: {
+      author_img: "/images/avatar/5.png",
+      post_img: "/images/huawei.jpg",
+    },
+    date: "May 17 2019",
+    title: "十年备胎，一朝转正--技术自立有备无患",
+    content: "今天，是历史的选择，所有我们曾经打造的备胎，一夜之间全部转“正”!多年心血，在一夜之间兑现为公司对于客户持续服务的承诺。是的，这些努力，已经连成一片，挽狂澜于既倒，确保了公司大部分产品的战略安全,大部分产品的连续供应!今天，这个至暗的日子，是每一位海思的平凡儿女成为时代英雄的日子!华为立志，将数字世界带给每个人、每个家庭、每个组织，构建万物互联的智能世界，我们仍将如此。今后，为实现这一理想，我们不仅要保持开放创新，更要实现科技自立!今后的路, 不会再有另一个十年来打造备胎然后再换胎了，缓冲区已经消失，每一个新产品一出生，将必须同步“科技自立的方案。前路更为艰辛，我们将以勇气、智慧和毅力，在极限施压下挺直脊梁，奋力前行!滔天巨浪方显英雄本色，艰难困苦铸造诺亚方舟。",
+    view_num: "96",
+    collect_num: "112",
+    text_condition: true,
+    postId: 4,
+    author: '华为海思',
+    dateTime: '24小时前',
+    music: {
+      url: "http://music.163.com/song/media/outer/url?id=27538254.mp3",
+      title: "女儿情-万晓利",
+      coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000004Wv5BO30pPc0.jpg?max_age=2592000"
+    }
+  },
+  {
+    img: {
+      author_img: "/images/avatar/5.png",
+      post_img: "/images/mayun.jpg",
+    },
+    date: "May 17 2019",
+    title: "十年备胎，一朝转正--技术自立有备无患",
+    content: "今天，是历史的选择，所有我们曾经打造的备胎，一夜之间全部转“正”!多年心血，在一夜之间兑现为公司对于客户持续服务的承诺。是的，这些努力，已经连成一片，挽狂澜于既倒，确保了公司大部分产品的战略安全,大部分产品的连续供应!今天，这个至暗的日子，是每一位海思的平凡儿女成为时代英雄的日子!华为立志，将数字世界带给每个人、每个家庭、每个组织，构建万物互联的智能世界，我们仍将如此。今后，为实现这一理想，我们不仅要保持开放创新，更要实现科技自立!今后的路, 不会再有另一个十年来打造备胎然后再换胎了，缓冲区已经消失，每一个新产品一出生，将必须同步“科技自立的方案。前路更为艰辛，我们将以勇气、智慧和毅力，在极限施压下挺直脊梁，奋力前行!滔天巨浪方显英雄本色，艰难困苦铸造诺亚方舟。",
+    view_num: "96",
+    collect_num: "112",
+    text_condition: true,
+    postId: 5,
+    author: '华为海思',
+    dateTime: '24小时前',
+    music: {
+      url: "http://music.163.com/song/media/outer/url?id=27538254.mp3",
+      title: "女儿情-万晓利",
+      coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000004Wv5BO30pPc0.jpg?max_age=2592000"
+    }
+  },
+  {
+    img: {
+      author_img: "/images/avatar/5.png",
+      post_img: "/images/bigBang.jpg",
+    },
+    date: "May 17 2019",
+    title: "十年备胎，一朝转正--技术自立有备无患",
+    content: "今天，是历史的选择，所有我们曾经打造的备胎，一夜之间全部转“正”!多年心血，在一夜之间兑现为公司对于客户持续服务的承诺。是的，这些努力，已经连成一片，挽狂澜于既倒，确保了公司大部分产品的战略安全,大部分产品的连续供应!今天，这个至暗的日子，是每一位海思的平凡儿女成为时代英雄的日子!华为立志，将数字世界带给每个人、每个家庭、每个组织，构建万物互联的智能世界，我们仍将如此。今后，为实现这一理想，我们不仅要保持开放创新，更要实现科技自立!今后的路, 不会再有另一个十年来打造备胎然后再换胎了，缓冲区已经消失，每一个新产品一出生，将必须同步“科技自立的方案。前路更为艰辛，我们将以勇气、智慧和毅力，在极限施压下挺直脊梁，奋力前行!滔天巨浪方显英雄本色，艰难困苦铸造诺亚方舟。",
+    view_num: "96",
+    collect_num: "112",
+    text_condition: true,
+    postId: 6,
+    author: '华为海思',
+    dateTime: '24小时前',
+    music: {
+      url: "http://music.163.com/song/media/outer/url?id=27538254.mp3",
+      title: "女儿情-万晓利",
+      coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000004Wv5BO30pPc0.jpg?max_age=2592000"
+    }
+  }]
 
 // exports可以将变量输出到其他脚本文件中
 module.exports = {

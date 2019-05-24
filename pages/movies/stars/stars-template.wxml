@@ -1,0 +1,14 @@
+<!--pages/stars/stars.wxml-->
+<!-- 评分五星、分数 -->
+<template name="starsTemplate">
+  <view class="stars-container">
+    <view class="stars">
+      <block wx:for="{{stars}}" wx:for-item="i" wx:key="1">
+        <image wx:if="{{i==1}}" src="/images/icon/star.png" />
+        <image wx:elif="{{i==2}}" src="/images/icon/star.png" /> 
+        <image wx:else src="/images/icon/none-star.png" />
+      </block>
+    </view>
+    <text class="star-score">{{average}}</text>
+  </view>
+</template>

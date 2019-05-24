@@ -3,17 +3,17 @@
 <import src="/pages/posts/post-item/post-item-template.wxml" />
 <view>
   <!-- javascript中非空字符串都是true，所以为显示bool  加上双括号 -->
-  <swiper indicator-dots="{{true}}" autoplay="true" interval="3000">
+  <swiper indicator-dots="{{true}}" autoplay="true" interval="3000" catch:tap="onSwiperTap">
     <swiper-item>
-      <image src="/images/huawei.jpg">
+      <image src="/images/huawei.jpg" data-postId='4'>
       </image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/mayun.jpg">
+      <image src="/images/mayun.jpg" data-postId='5'>
       </image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/bigBang.jpg">
+      <image src="/images/bigBang.jpg" data-postId='6'>
       </image>
     </swiper-item>
   </swiper>
